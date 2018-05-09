@@ -9,16 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activities.TelaInicialActivity">
+        <activity android:name=".activities.TelaInicialActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activities.BebidasActivity" />
-        <activity android:name=".Activities.CategoriaBebidasActivity" />
-        <activity android:name=".Activities.AvaliacaoActivity"></activity>
+        <activity android:name=".activities.BebidasActivity" />
+        <activity android:name=".activities.CategoriaBebidasActivity" />
+        <activity android:name=".activities.AvaliacaoActivity" />
+        <activity android:name=".activities.LojasActivity" />
+        <activity android:name=".activities.CadastroCategoriaActivity">
+
+
+        </activity>
     </application>
 
 </manifest>

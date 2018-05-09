@@ -4,16 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activities.BebidasActivity"
+    tools:context=".activities.BebidasActivity"
     tools:layout_editor_absoluteY="81dp">
 
     <ImageView
         android:id="@+id/imgBebida"
-        android:layout_width="150dp"
+        android:layout_width="0dp"
         android:layout_height="150dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:contentDescription="@string/logo_desciption"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -26,7 +27,6 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="TextView"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -37,7 +37,6 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="TextView"
         app:layout_constraintEnd_toEndOf="@+id/nomeBebida"
         app:layout_constraintStart_toStartOf="@+id/nomeBebida"
         app:layout_constraintTop_toBottomOf="@+id/nomeBebida" />
@@ -49,7 +48,6 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
-        android:text="TextView"
         app:layout_constraintEnd_toEndOf="@+id/descBebida"
         app:layout_constraintStart_toStartOf="@+id/descBebida"
         app:layout_constraintTop_toBottomOf="@+id/descBebida" />
@@ -59,7 +57,6 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="TextView"
         app:layout_constraintEnd_toEndOf="@+id/precoBebida"
         app:layout_constraintStart_toStartOf="@+id/precoBebida"
         app:layout_constraintTop_toBottomOf="@+id/precoBebida" />

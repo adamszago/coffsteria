@@ -2,5 +2,18 @@
     <string name="app_name">Coffsteria</string>
     <string name="avaliacao">Avalie a Coffsteria</string>
     <string name="notas">Avalie na escala de 0 a 10</string>
+    <string name="logo_desciption">Logomarca</string>
+    <string name="cad_categoria">Cadastro de Categorias</string>
+    <string name="btn_cadastrar">Cadastrar</string>
+    <string name="config">Configuração</string>
+    <string name="sair">Sair</string>
+    <string name="cad_produto">Cadastro Produtos</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logo_img">logomarca da empresa</string>
+    <string name="btn_avaliar">Avaliar</string>
+
 
 </resources>

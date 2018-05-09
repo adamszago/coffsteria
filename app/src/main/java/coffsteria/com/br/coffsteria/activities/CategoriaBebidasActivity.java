@@ -1,4 +1,4 @@
-package coffsteria.com.br.coffsteria.Activities;
+package coffsteria.com.br.coffsteria.activities;
 
 import android.app.Activity;
 import android.app.ListActivity;
